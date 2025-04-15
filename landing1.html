@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelatihan HTML - Landing Page Sederhana</title>
+</head>
+<body>
+    <!-- Header -->
+    <header style="background-color: #b30cc2; color: white; text-align: center; padding: 20px;">
+        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Belajar Membuat Landing Page</h1>
+        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Pelatihan HTML</p>
+    </header>
+
+    <!-- Navigasi -->
+    <nav style="background-color: #333; padding: 10px;">
+        <a href="#home" style="color: white; margin: 0 10px; text-decoration: none; font-family: Verdana, Geneva, Tahoma, sans-serif;">Beranda</a>
+        <a href="#about" style="color: white; margin: 0 10px; text-decoration: none; font-family: Verdana, Geneva, Tahoma, sans-serif;">Tentang</a>
+        <a href="#services" style="color: white; margin: 0 10px; text-decoration: none; font-family: Verdana, Geneva, Tahoma, sans-serif;">Layanan</a>
+        <a href="#contact" style="color: white; margin: 0 10px; text-decoration: none; font-family: Verdana, Geneva, Tahoma, sans-serif;">Kontak</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" style="text-align: center; padding: 50px 20px; background-color: #f0f0f0;">
+        <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Selamat Datang di Pelatihan Kami</h2>
+        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Mari belajar membuat website sederhana dengan HTML dasar</p>
+        <button style="background-color: #b30cc2; color: white; border: none; padding: 10px 20px; margin-top: 20px;">Mulai Belajar</button>
+    </section>
+
+    <!-- Tentang -->
+    <section id="about" style="padding: 30px 20px; text-align: center;">
+        <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Tentang Kami</h2>
+        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Kami adalah penyedia pelatihan pemrograman web untuk pemula yang ingin memulai karir di bidang teknologi.</p>
+        
+        <div style="display: flex; justify-content: center; margin-top: 20px;">
+            <div style="margin: 0 15px;">
+                <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Mudah Dipahami</h3>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Materi disampaikan dengan bahasa yang sederhana</p>
+            </div>
+            <div style="margin: 0 15px;">
+                <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Praktik Langsung</h3>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Belajar sambil langsung mempraktikkan kode</p>
+            </div>
+            <div style="margin: 0 15px;">
+                <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Gratis</h3>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Tidak ada biaya untuk pelatihan dasar</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Layanan -->
+    <section id="services" style="background-color: #f0f0f0; padding: 30px 20px; text-align: center;">
+        <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Layanan Kami</h2>
+        
+        <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+            <div style="background-color: white; margin: 10px; padding: 20px; width: 200px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">HTML Dasar</h3>
+                <img src="hl.webp" width="150" height="100" alt="">
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Belajar struktur dasar HTML</p>
+            </div>
+            <div style="background-color: white; margin: 10px; padding: 20px; width: 200px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Form HTML</h3>
+                <form action="/action_page.php">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" value=""><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" value=""><br><br>
+                </form>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Membuat form interaktif</p>
+            </div>
+            <div style="background-color: white; margin: 10px; padding: 20px; width: 200px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Tabel HTML</h3>
+                <style>
+                    table, th, td {
+                    border: 3px solid #000000;
+                    border-collapse: collapse;
+                    background-color: #b30cc2;
+                    
+                    }
+                </style>
+                <table align="center" width="100" height="100">
+                    <tr>
+                        <th style="color: #f0f0f0;">Contoh head table</th>
+                    </tr>
+                    <tr>
+                        <td style="color: #f0f0f0;">Contoh table isi</td>
+                    </tr>
+                </table>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Mengatur data dalam tabel</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni -->
+    <section style="padding: 30px 20px; text-align: center;">
+        <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Apa Kata Peserta</h2>
+        
+        <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+            <div style="margin: 7px; padding: 20px; border: 1px solid #ddd; width: 250px;">
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">"Pelatihannya sangat mudah dipahami untuk pemula seperti saya."</p>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;"><strong>- Budi, Mahasiswa</strong></p>
+            </div>
+            <div style="margin:7px; padding: 20px; border: 1px solid #ddd; width: 250px;">
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">"Materinya praktis dan langsung bisa diaplikasikan."</p>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;"><strong>- Ani, Guru</strong></p>
+            </div>
+            <div style="margin: 7px; padding: 20px; border: 1px solid #ddd; width: 250px;">
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">"Mudah di pahami oleh anak SD sekalipun"</p>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;"><strong>- Rido, Guru</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact" style="background-color: #b30cc2; color: white; padding: 30px 20px; text-align: center;">
+        <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Hubungi Kami</h2>
+        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Email: info@pelatihanhtml.com</p>
+        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Telepon: 081392462379</p>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #333; color: white; text-align: center; padding: 20px;">
+        <p>&copy; 2025 Pelatihan HTML Dasar. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
